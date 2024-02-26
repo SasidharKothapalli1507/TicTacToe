@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, viewport, and compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to external JavaScript file with 'defer' attribute for deferred execution -->
+    <script src="script.js" defer></script>
+    <!-- Title of the document -->
+    <title>Tic Tac Toe Game</title>
+    <link rel="shortcut icon" href="./Images/Favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Heading indicating whose turn it is -->
+    <h1 id="playerTurn">X's Turn</h1>
+    <!-- Container for the game board -->
+    <div class="gameBoard" id="gameBoard">
+        <!-- Individual cells of the game board -->
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+        <div class="gameCell" data-cell></div>
+    </div>
+    <!-- Container for displaying game result message -->
+    <div class="resultMessage" id="resultMessage">
+        <!-- Element to display result message -->
+        <div id="resultMessageText"></div>
+        <!-- Button to restart the game -->
+        <button id="restartButton">Restart</button>
+    </div>
+</body>
+
+</html>
